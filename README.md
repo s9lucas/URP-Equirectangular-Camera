@@ -1,6 +1,8 @@
 # URP-Equirectangular-Camera
 Example Unity project showing 360° equirectangular camera for Universal Render Pipeline (URP). This can be used to convert Unity scenes to be viewed as 360 panoramas on platforms like YouTube.
 
+The shader is adapted from [Mapiraz/CubemapToEquirectangular(https://github.com/Mapiarz/CubemapToEquirectangular) "Mapiraz/CubemapToEquirectangular"] which I could not get to work with URP initially.
+
 ![Example Panorama Image](https://github.com/s9lucas/URP-Equirectangular-Camera/blob/master/urp-equirectangular-camera-screenshot.png?raw=true)
 
 ## Getting Started
