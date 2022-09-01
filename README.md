@@ -38,11 +38,11 @@ For my purposes, I use the following process:
 
 ## Adjusting Your Scene
 
-You likely will have to tweak your scene to accomodate the cam, specifically things that may interact with the edges of the cubemap. I have found that VFX particle billboards pointed at the camera look better if they are smaller and further away from he camera. Post-processing that involves the camera frame like Vignette or extreme Bloom will interact with the cubemap edges. Depth of Field and other depth-based post-processing does not currently work because they are applied after the scene renders on the the canvas, which doesn't include the depth channel from the camera (there should be some way to fix this).
+You likely will have to tweak your scene to accomodate the cam, specifically things that may interact with the edges of the cubemap. I have found that VFX particle billboards pointed at the camera look better if they are smaller and further away from the camera. Post-processing that involves the camera frame like Vignette or extreme Bloom will interact with the cubemap edges. Depth of Field and other depth-based post-processing does not currently work because they are applied after the scene renders on the the canvas, which doesn't include the depth channel from the camera (there should be some way to fix this).
 
 ### What about higher resolutions?
 
-You should be able to increase the player resolution to 8k or higher if your graphics card can support it. You should also increase the resolution of CubeMapTexture.renderTexture to accomodate this. Last time I tried an 8k panorama YouTube, it did not render smoothly so I preferred 4k.
+You should be able to increase the player resolution to 8k or higher if your graphics card can support it. You should also increase the resolution of CubeMapTexture.renderTexture to accomodate this. Last time I tried an 8k panorama in YouTube, it did not playback smoothly so I preferred 4k.
 
 ## Bugs and Issues
 
